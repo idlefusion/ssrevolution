@@ -5,7 +5,7 @@ require 'hominid' # MailChimp
 configure do
 
   # MailChimp configuration: ADD YOUR OWN ACCOUNT INFO HERE!
-  set :mailchimp_api_key, "b5570879d08eed0513f6e19fef313059-us4-us4"
+  set :mailchimp_api_key, "b5570879d08eed0513f6e19fef313059-us4"
   set :mailchimp_list_name, "Info"
 
 end
