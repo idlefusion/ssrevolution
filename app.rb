@@ -14,6 +14,10 @@ get '/' do
   File.read(File.join('public', 'index.html'))
 end
 
+get '/testimonial' do
+  File.read(File.join('public', 'testimonial.html'))
+end
+
 post '/signup' do
   email = params[:email]
   unless email.nil? || email.strip.empty?
