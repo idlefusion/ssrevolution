@@ -67,8 +67,7 @@
 }
 
 .home {
-  background: url('/static/img/bg-home.jpg?622779e7553b') center 40px no-repeat white;
-  padding-top: 55px; 
+  padding-top: 30px; 
 }
 
 .home article.container {
