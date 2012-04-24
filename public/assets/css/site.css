@@ -1,0 +1,154 @@
+.navbar .container {
+  width: 940px;
+  color: #000;
+}
+
+.container {
+  width: 940px;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0; 
+}
+
+.navbar .brand {
+  color: #dc300e;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.brand .revolution {
+  color: #000;
+}
+
+.navbar .navbar-inner {
+  background: #fff;
+  color: #000;
+  padding-top: 5px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  text-shadow: none; 
+}
+
+.navbar .navbar-inner .nav {
+  margin-left: 40px;
+}
+
+.navbar .navbar-inner .nav > li > a {
+  text-shadow: none;
+  padding: 18px 15px;
+  font-size: 18px;
+}
+
+.navbar .navbar-inner .nav > a {
+  font-size: 15px;
+  margin-top: 14px;
+  margin-left: 10px;
+}
+
+.navbar .navbar-inner .nav > li .active > a, .navbar .navbar-inner .nav > li .active > a:hover, .navbar .navbar-inner .nav > li > a:hover {
+  background: #fff;
+  color: #000; 
+}
+
+.navbar .navbar-inner .nav-collapse.in ul:first-child {
+  margin-bottom: 0; 
+}
+
+.navbar .navbar-inner .btn-navbar {
+  margin-top: 8px; 
+}
+
+.home {
+  background: url('/static/img/bg-home.jpg?622779e7553b') center 40px no-repeat white;
+  padding-top: 55px; 
+}
+
+.home article.container {
+  margin-top: 0; 
+}
+
+.home .hero-unit {
+  background: none;
+  height: 250px;
+  padding: 50px 0px 0 0;
+}
+
+.home .hero-unit h1 {
+  margin: 36px 0 27px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.home .hero-unit p {
+  margin: 1em 0;
+  font-size: 20px; 
+}
+
+.home .hero-unit .btn {
+  font-size: 20px;
+  padding: 12px 26px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.ministries .row {
+  margin-bottom: 9px;
+}
+
+.ministries h1 {
+  margin: 36px 0 27px;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.ministries h2,
+.ministries h3 {
+  font-weight: 300;
+}
+
+.ministries h2 {
+  font-size: 22px;
+}
+
+.ministries p {
+  margin-right: 10px;
+}
+
+.ministries .bs-icon {
+  float: left;
+  margin: 7px 10px 0 0;
+  opacity: .8;
+}
+
+.ministries .small-bs-icon {
+  float: left;
+  margin: 4px 5px 0 0;
+}
+
+.ministries-byline {
+  margin: -18px 0 27px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #999;
+}
+
+.footer {
+  margin-top: 45px;
+  padding: 35px 0 36px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer p {
+  margin-bottom: 0;
+  color: #555;
+}
