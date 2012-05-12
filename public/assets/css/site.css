@@ -7,6 +7,10 @@
   width: 940px;
 }
 
+.content{
+  padding: 50px 0px 0px 0px;
+}
+
 .navbar {
   position: absolute;
   top: 0;
@@ -77,7 +81,7 @@
 .home .hero-unit {
   background: none;
   height: 250px;
-  padding: 50px 0px 0 0;
+  padding: 30px 0px 0 0;
 }
 
 .home .hero-unit h1 {

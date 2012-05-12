@@ -14,8 +14,12 @@ get '/' do
   File.read(File.join('public', 'index.html'))
 end
 
+get '/contact' do
+  File.read(File.join('public', 'contact.html'))
+end
+
 get '/testimonial' do
-  File.read(File.join('public', 'testimonial.html'))
+  File.read(File.join('public', 'contact.html'))
 end
 
 post '/signup' do
