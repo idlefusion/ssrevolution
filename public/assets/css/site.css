@@ -71,7 +71,11 @@
 }
 
 .home {
-  padding-top: 30px; 
+  padding-top: 55px; 
+}
+
+.splash {
+  background: url('/assets/img/backpack-bw.jpg') center 40px no-repeat white;
 }
 
 .home article.container {
@@ -79,15 +83,17 @@
 }
 
 .home .hero-unit {
-  background: none;
-  height: 250px;
-  padding: 30px 0px 0 0;
+  height: 400px;
+  padding: 25px 0px 0 0;
+  background:none;
 }
 
 .home .hero-unit h1 {
   margin: 36px 0 27px;
   font-size: 40px;
-  font-weight: 500;
+  font-weight:900;
+  color: #fff;
+  text-shadow: 2px 2px 8px black;
 }
 
 .home .hero-unit p {
