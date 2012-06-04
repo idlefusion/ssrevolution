@@ -18,6 +18,18 @@ get '/backpacklove' do
   File.read(File.join('public', 'backpacklove.html'))
 end
 
+get '/beautifulfeet' do
+  File.read(File.join('public', 'beautifulfeet.html'))
+end
+
+get '/dechurched' do
+  File.read(File.join('public', 'dechurched.html'))
+end
+
+get '/impact' do
+  File.read(File.join('public', 'impact.html'))
+end
+
 get '/contact' do
   File.read(File.join('public', 'contact.html'))
 end

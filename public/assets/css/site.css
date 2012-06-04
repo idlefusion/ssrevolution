@@ -47,7 +47,8 @@
 
 .navbar .navbar-inner .nav > li > a {
   text-shadow: none;
-  padding: 18px 15px;
+  padding-top: 18px;
+  padding-right: 15px;
   font-size: 18px;
 }
 
@@ -60,6 +61,15 @@
 .navbar .navbar-inner .nav > li .active > a, .navbar .navbar-inner .nav > li .active > a:hover, .navbar .navbar-inner .nav > li > a:hover {
   background: #fff;
   color: #000; 
+}
+
+.dropdown.open .dropdown-toggle {
+    color: 
+    black;
+    background: 
+    #CCC;
+    background: 
+    rgba(0, 0, 0, 0.3);
 }
 
 .navbar .navbar-inner .nav-collapse.in ul:first-child {
@@ -186,6 +196,10 @@
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.accordion a:hover {
+  text-decoration: underline;
 }
 
 .accordion-inner {
