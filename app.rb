@@ -34,5 +34,5 @@ post '/signup' do
 end
 
 not_found do
-  'The item you are looking for was not found :('
+  File.read(File.join('public', '404.html'))
 end
